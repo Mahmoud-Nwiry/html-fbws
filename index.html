@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Red Cofe</title>
+    </head>
+    <body>
+        <div>
+            <div>
+                <img src="logo.png" alt="logo" width="70" height="70" />
+                <ul>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Categories</li>
+                    <li>Team</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Red Cofe with you in any place</h2>
+                <p>Our products will change your mode to be more relax</p>
+                <button>Buy now</button>
+            </div>
+            <br>
+
+            <img src="background.jpg" alt="background" />
+
+            <script>
+                document.oncontextmenu = function(){return false}
+
+                document.onkeydown = function(e){
+                    if(e.keyCode === 123) return false;
+                    if(e.ctrlKey && e.shiftKey && e.keyCode === 'I'.charCodeAt(0)) return false;
+                    if(e.ctrlKey && e.shiftKey && e.keyCode === 'J'.charCodeAt(0)) return false;
+                    if(e.ctrlKey && e.shiftKey && e.keyCode === 'C'.charCodeAt(0)) return false;
+                    if(e.ctrlKey && e.shiftKey && e.keyCode === 'X'.charCodeAt(0)) return false;
+                    if(e.ctrlKey &&  e.keyCode === 'U'.charCodeAt(0)) return false;
+                }
+            </script>
+        </div>
+    </body>
+</html>
